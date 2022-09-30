@@ -10,7 +10,7 @@ empArray.push(lowerLetters);
 empArray.push(numbers);
 empArray.push(specialCharacters);
 empArray.push(capitalLetters);
-
+console.log(empArray);
 
 
 // Write password to the #password input
