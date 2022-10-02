@@ -21,7 +21,7 @@ var passwordText = document.querySelector("#password");
 
 }
 
-function UserInput(){
+function generatePassword(){
     empArray=[];
     result = prompt("How many characters? Between 8 and 128");
     if(isNaN(result) || result < 8 || result > 128){
@@ -40,14 +40,10 @@ function UserInput(){
     if (confirm("Do you want special characters?")){
         empArray= empArray.concat(specialCharacters);
     
+    }
     console.log(empArray);
     return true
     }
-    
-  
-   
-    
-}
 
 
 
